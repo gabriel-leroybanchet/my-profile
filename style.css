@@ -1,0 +1,138 @@
+/* Style de base pour la page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: rgb(10, 10, 10);
+  background-color: #DFDDDF; /* Gris clair */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Style pour le header */
+header {
+  background-color: #809CC1; /* Nouvelle couleur */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Style pour l'image de profil */
+section img {
+  display: block;
+  margin: 20px auto;
+  width: 150px; /* Taille ajustable */
+  border-radius: 50%;
+}
+
+/* Style pour les sections */
+section {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style pour les titres des sections */
+section h2 {
+  font-size: 1.8em;
+  color: #809CC1; /* Nouvelle couleur */
+}
+
+/* Style pour le texte des sections */
+section p {
+  font-size: 1em;
+  color: rgb(30, 30, 30);
+  text-align: center;
+  max-width: 90%;
+}
+
+/* Style pour le bouton du lien vers le site préféré */
+section a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 15px 0;
+  background-color: #809CC1; /* Couleur du bouton */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+section a:hover {
+  background-color: #5a7c99; /* Couleur lors du survol */
+}
+
+/* Style pour les liens standards */
+a {
+  color: #809CC1; /* Nouvelle couleur */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style pour le footer et les icônes sociales */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #ffffff;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #809CC1; /* Nouvelle couleur */
+}
+
+/* Media queries pour la responsivité */
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, ce CSS sera lu */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, ce CSS sera lu */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, ce CSS sera lu */
+  .container {
+    width: 300px;
+  }
+}
